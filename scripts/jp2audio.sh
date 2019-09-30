@@ -12,15 +12,15 @@
 # returns 1 if the file not there or is empty
 doesExist (){
     _file="../audio-jp/$1.wav"
-    [ $# -eq 0 ] && { echo "Usage: $1 filename"; return 1; }
-    [ ! -f "$_file" ] && { echo "$1 file not found."; return 1; }
+    [ $# -eq 0 ] && {  return 1; }
+    [ ! -f "$_file" ] && {  return 1; }
 
     if [ -s "$_file" ]
     then
-        echo "$_file file has some data."
+       
             return 1;
     else
-        echo "$_file file is empty."
+       
             return 0;
     fi
 
