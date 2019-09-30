@@ -1,6 +1,8 @@
+## this script requires voices to be installed 
+#to install 
 go to region & language settings > speech > install german and/or japanese language 
-        > and wait for the languages to download
-        > after downloading besure to close the 'region and language setting' or you will get voice not installed error message
+*        > and wait for the languages to download
+*        > after downloading besure to close the 'region and language setting' or you will get voice not installed error message
         
 
 
