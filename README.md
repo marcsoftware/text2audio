@@ -7,8 +7,9 @@
 
 ###### make the audio files
 * STEP 1. put japanese words into input.txt and put each word on its own line
-* STEP 2.  type following commans into console 
+* STEP 2.  
 ```
+//type following commans into console 
 cd scripts
 ./jp2audio.sh < input.txt
 ```
