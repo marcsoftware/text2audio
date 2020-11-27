@@ -8,8 +8,10 @@
 ###### make the audio files
 * STEP 1. put japanese words into input.txt and put each word on its own line
 * STEP 2. Right click on the makeWAV.ps1 file and click properties.
-           click the [✔] UNBLOCK - "THIS FLILE CAME FROM ANOTHER COMPUTER AND MAY BE BLOCKED"
-  https://hi.service-now.com/kb_view.do?sysparm_article=KB0713009
+         
+         click the [✔] UNBLOCK - "THIS FLILE CAME FROM ANOTHER COMPUTER AND MAY BE BLOCKED"
+  
+           https://hi.service-now.com/kb_view.do?sysparm_article=KB0713009
 * STEP 3.  
 ```
 #type following commands into console 
