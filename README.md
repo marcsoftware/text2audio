@@ -1,6 +1,6 @@
 #### this script requires voices to be installed
 
-##### to install voice requirement
+##### to install voice requirement WINDOWS 10 
 * STEP 1 : go to region & language settings > speech > install german and/or japanese language
 * STEP 2: and wait for the languages to download
 * STEP 3: after downloading be sure to close the 'region and language setting' or you will get voice not installed error message
