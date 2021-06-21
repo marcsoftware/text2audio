@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<script>
+function myFunction() {
+  var input=document.getElementById('input').value;
+  input=input.match(/\w+/g);
+  var handle=document.getElementById('output');
+  handle.value=input.join("\n");
+}
+</script>
+<body>
+
+paste text here:
+<textarea id='input'></textarea />
+<button onclick="myFunction()">wordcount</button>
+these are distinct words:
+<textarea id='output' ></textarea>
+
+
+
+
+
+</body>
+</html>
