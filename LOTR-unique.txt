@@ -52,8 +52,6 @@ Augenöffner
 Aussichten
 Außerhalb
 Axt
-BILBO
-BOROMIR
 Balin
 Balrog
 Banner
@@ -132,7 +130,6 @@ Bündnis
 Bürde
 Caradhras
 Crebain
-DER
 Da
 Dahinten
 Damit
@@ -187,8 +184,6 @@ Durch
 Durin
 Dämon
 Düsterwalds
-ELBISCH
-ENGLISCH
 Ebensowenig
 Eber
 Ecke
@@ -243,8 +238,6 @@ Eure
 Euren
 Exil
 Eärendils
-FLÜSTERN
-FRODO
 Fahrt
 Fall
 Falls
@@ -302,9 +295,6 @@ Fünfhundert
 Für
 Fürchtest
 Füße
-GALADRIEL
-GANDALF
-GOLLUM
 Gabe
 Gadalf
 Galadriel
@@ -383,7 +373,6 @@ Gut
 Gute
 Guten
 Gutes
-HERR
 Hab
 Haben
 Habgier
@@ -450,7 +439,6 @@ Höchst
 Höhle
 Höhlentroll
 Höre
-IN
 Ich
 Idee
 Ihr
@@ -482,7 +470,6 @@ Jetzt
 Jiaah
 Junge
 Jungs
-KNALL
 Kaminfeuer
 Kaminsims
 Kann
@@ -526,8 +513,6 @@ Königskraut
 Können
 Kümmere
 Künste
-LACHT
-LIEST
 Labyrinth
 Land
 Lande
@@ -563,8 +548,6 @@ Luft
 Lutz
 Länder
 Ländern
-MANN
-MERRY
 Mach
 Machs
 Macht
@@ -621,8 +604,6 @@ Möchtest
 Möge
 Mögen
 Möglichkeit
-N
-NORMALER
 Na
 Nach
 Nacheinander
@@ -671,8 +652,6 @@ Orten
 Osten
 Ostufer
 Ouh
-PIPPIN
-POCHEN
 Palantir
 Pass
 Pausbackens
@@ -696,7 +675,6 @@ Prasselnde
 Prüfung
 Psst
 Querfeldein
-RINGE
 Rande
 Rat
 Rates
@@ -726,13 +704,6 @@ Ruhe
 Runter
 Rätsel
 Rüben
-S
-SARUMAN
-SAURON
-SCHREIT
-SCHRITTE
-SPRACHE
-SPRICHT
 Sache
 Sachen
 Sack
@@ -886,7 +857,6 @@ Tunichtgut
 Turm
 Turmwachen
 Typisch
-TÜR
 Tänzelnden
 Tölpel
 Tötet

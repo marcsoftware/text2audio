@@ -1,10 +1,16 @@
 <!DOCTYPE html>
+<title>subtitle and vocablist</title>
 <html>
 <script>
 function myFunction() {
   var input=document.getElementById('input').value;
+var cleanhandle=document.getElementById('clean');
+  cleanhandle.value=input.replace(/[^a-zA-ZÄäÖöÜüẞß\n ]/g,'').replace(/[\ ]+/g," ").replace(/[\n\r]+/g,"\n");
+
+
   input=input.match(/[a-zA-ZÄäÖöÜüẞß]+/g);
   var handle=document.getElementById('output');
+  
 
   //delete the repeats
   input= input.filter(function(item, pos) {
@@ -18,15 +24,19 @@ function myFunction() {
 
 
   handle.value=input.sort().join("\n");
+
+
 }
 </script>
 <body>
 
-paste text here:
-<textarea id='input'></textarea />
-<button onclick="myFunction()">wordcount</button>
-these are distinct words:
-<textarea id='output' ></textarea>
+paste text here:<br/>
+<textarea id='input'></textarea /><br/>
+<button onclick="myFunction()">wordcount</button><br/>
+these are distinct words:<br/>
+<textarea id='output' ></textarea><br/>
+these remove non-word chars:<br/>
+<textarea id='clean' ></textarea><br/>
 
 
 
