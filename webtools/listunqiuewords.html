@@ -3,9 +3,21 @@
 <script>
 function myFunction() {
   var input=document.getElementById('input').value;
-  input=input.match(/\w+/g);
+  input=input.match(/[a-zA-ZÄäÖöÜüẞß]+/g);
   var handle=document.getElementById('output');
-  handle.value=input.join("\n");
+
+  //delete the repeats
+  input= input.filter(function(item, pos) {
+    return input.indexOf(item) == pos;
+  })
+
+  //delete words that are all in uppercase
+  input= input.filter(function(item, pos) {
+    return item.toUpperCase() !== item;
+  })
+
+
+  handle.value=input.sort().join("\n");
 }
 </script>
 <body>
