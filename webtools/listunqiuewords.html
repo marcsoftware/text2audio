@@ -5,8 +5,14 @@
 function myFunction() {
   var input=document.getElementById('input').value;
 var cleanhandle=document.getElementById('clean');
-  var cleansubs=input.replace(/[^a-zA-ZÄäÖöÜüẞß\n \.\?\!]/g,'').replace(/[\ ]+/g," ").replace(/[\n\r]+/g,"\n");
+
+  var cleansubs=input.replace(/\d+:\d+:\d+,\d+/g,'');
+  cleansubs=cleansubs.replace(/-->/g,'');
+  cleansubs=cleansubs.replace(/\n\d+\n/g,'');
+  cleansubs=cleansubs.replace(/[\ ]+/g," ");
+  cleansubs=cleansubs.replace(/[\n\r]+/g,"\n");
   cleansubs=cleansubs.replace(/\n\ /g,'\n');
+  cleansubs=cleansubs.replace(/\n+/g,'\n');
   cleanhandle.value=cleansubs;
 
 
