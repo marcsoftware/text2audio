@@ -37,7 +37,7 @@ makeEspeak (){
 
 makeWAV (){
   PowerShell -NoProfile -ExecutionPolicy unrestricted -Command "./jp.ps1 '$1'"
-  #powershell -ExecutionPolicy ByPass -File makeWAV.ps1
+  #powershell -ExecutionPolicy ByPass -File makeJAPwav.ps1
 
 }
 
